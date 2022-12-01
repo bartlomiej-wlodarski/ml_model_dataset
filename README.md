@@ -1,1 +1,5 @@
-# ml_model_dataset
+We decided to choose a dataset that suits our needs the best, namely Sentiment Analysis Dataset. The dataset can be found here: https://www.kaggle.com/datasets/abhi8923shriv/sentiment-analysis-dataset
+
+Given dataset is interesting, because it has been automatically created. The creators assumed that tweets with positive emoticons, like :slight_smile:, were positive, and tweets with negative emoticons, like :disappointed:, were negative. The result of their work is a dataset containing short text messages with numbers assigned, where 0 means negative, 2 means neutral and 4 means positive emotions. Dataset create in such way is innovative, but has also its drawbacks. The dataset chosen may influence the outcome of our project due to its nature, but will be significant for the future development of the tool giving impactful conclusions. Nevertheless, we have decided that this dataset is perfect for us and we are also very curious about the result we are going to achieve using data acquired in this unusual way. 
+
+The dataset contains of tables with entities named: polarity field, id of the tweet, 	date of the tweet, 	query,	user,	text field. Nevertheless for our training model we used only polarity field and text field, which were relevant for our application.
